@@ -1,0 +1,845 @@
+/* section fourteen */
+
+
+
+
+
+.fourteen{
+    padding: 10px;
+}
+
+.fourteen .header-logo-search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.fourteen .header-logo-search img{
+    height: 40px;
+}
+
+.fourteen .header-logo-search h1{
+    font-size: 25px;
+    color: #1d66d2;
+}
+
+.fourteen .header-logo-search .text-with-searchlogo{
+    display: flex;
+}
+
+.fourteen .header-logo-search .text-with-searchlogo img{
+    height: 30px;
+    width: 30px;
+}
+
+.fourteen .header-logo-search input{ 
+    border-radius: 30px;
+    height: 40px;
+    margin-left: 30px;
+    border: none;
+    background-color: #fbd49b;
+}
+
+.fourteen .header-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.fourteen .header-menu ul li{
+    margin: 33px;
+}
+
+
+
+
+
+
+/* section fifteen */
+
+
+
+
+
+.fifteen{
+margin: 0px 20px 20px 20px;
+}
+
+.fifteen .heading h1{
+font-size: 24px;
+text-align: center;
+color: #37474f;
+margin-top: 0px;
+}
+
+.fifteen .heading p{
+font-size: 16px;
+}
+
+.fifteen .heading .offer-10{
+display: flex;
+align-items: center;
+}
+
+.fifteen .heading .offer-10 h3{
+margin-right: 15px;
+font-size: 20px;
+}
+
+.fifteen .heading .offer-10 h2{
+font-size: 25px;
+color: #1d66d2;
+}
+
+.fifteen .heading .premium-images{
+display: flex;
+align-items: center;
+}
+
+.premium-images .premium-image{
+display: flex;
+margin: 7px;
+}
+
+.premium-images .premium-image p{
+font-size: 14px;
+text-align: center;
+margin-top: 7px;
+}
+
+.fifteen .heading .premium-images .premium-image img{
+height: 50px;
+}
+
+.fifteen .heading h2{
+font-size: 22px;
+}
+
+.fifteen .heading .premium-background ul{
+display: flex;
+}
+
+.fifteen .heading .premium-background ul li{
+background-color: rgb(48, 141, 222);
+border-radius: 50%;
+list-style: none;
+height: 40px;
+width: 40px;
+margin: 10px;
+}
+
+.fifteen .heading .premium-background .color2{
+background-color: #fbd49b;
+}
+
+.fifteen .heading .premium-background .color3{
+background-color: #138276;
+}
+
+.fifteen .heading .premium-background .color4{
+background-color: #24bd4d;
+}
+
+.fifteen .heading .premium-background .color5{
+background-color: #972239;
+}
+
+.fifteen .heading .premium-background .color6{
+background-color: #cc8220;
+}
+
+.fifteen .premium-sofas{
+display: flex;
+align-items: center;
+}
+
+.fifteen .premium-sofas img{
+height: 600px;
+width: 230px;
+}
+
+.fifteen .premium-sofas .premium-sofa{
+display: flex;
+flex-direction: column;
+}
+
+.fifteen .premium-sofas .premium-sofa img{
+height: 100px;
+width: 100px;
+margin: 10px;
+background-color:#fbd49b;
+border-radius: 20px;
+}
+
+
+
+
+
+/* section sixteen */
+
+
+
+.sixteen{
+margin: 20px;
+}
+
+.sixteen h1{
+text-align: center;
+font-size: 27px;
+}
+
+.sixteen table,th{
+font-size: 18px;
+}
+
+.sixteen table,th,td{
+font-size: 18px;
+padding: 20px;
+text-align: center;
+border: 2px solid #000;
+border-collapse: collapse;
+}
+
+
+
+
+
+
+
+/* section seventeen */
+
+
+
+
+.seventeen{
+margin: 20px;
+margin-top: 70px;
+}
+
+.seventeen h1{
+color: #37474f;
+text-align: center;
+}
+
+.seventeen .similar-products{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+text-align: center;
+}
+
+.seventeen .similar-products .similar-product img{
+height: 250px;
+width: 250px;
+background-color:#fbd49b ;
+border-radius: 30px;
+margin: 20px;
+}
+
+.seventeen .similar-products .similar-product p{
+font-size: 16px;
+}
+
+.seventeen .similar-products .similar-product .button{
+height: 50px;
+background-color: #fbd49b;
+border: none;
+border-radius: 20px;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+/* section eighteen */
+
+
+
+.eighteen{
+margin: 20px;
+}
+
+.eighteen table,td{
+padding: 10px;
+text-align: center;
+border: 2px solid #000;
+border-collapse: collapse;
+}
+
+
+
+
+
+
+/* section nineteen */
+
+
+
+
+
+.nineteen{
+margin: 20px;
+margin-top: 70px;
+}
+
+.nineteen .customer-reviews .customer-review h1{
+text-align: center;
+color: #37474f;
+}
+.nineteen .customer-reviews .customer-review .customer-review-starlogo{
+text-align: center;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-starlogo img{
+height: 30px;
+}
+
+.nineteen .customer-reviews .customer-review p{
+text-align: center;
+font-size: 17px;
+margin: 20px 0px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating1{
+display: flex;
+align-items: center;
+} 
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating1 h2{
+font-size: 24px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating1 p{
+width: 150px;
+height: 50px;
+background-color: #fbd49b;
+border-radius: 30px;
+margin: 15px;
+}
+
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating2{
+display: flex;
+align-items: center;
+} 
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating2 h2{
+font-size: 24px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating2 p{
+width: 150px;
+height: 50px;
+background-color: #fbd49b;
+border-radius: 30px;
+margin: 15px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating3{
+display: flex;
+align-items: center;
+} 
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating3 h2{
+font-size: 24px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating3 p{
+width: 150px;
+height: 50px;
+background-color: #fbd49b;
+border-radius: 30px;
+margin: 15px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating4{
+display: flex;
+align-items: center;
+} 
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating4 h2{
+font-size: 24px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating4 p{
+width: 150px;
+height: 50px;
+background-color: #fbd49b;
+border-radius: 30px;
+margin: 15px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating5{
+display: flex;
+align-items: center;
+} 
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating5 h2{
+font-size: 24px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating5 p{
+width: 150px;
+height: 50px;
+background-color: #fbd49b;
+border-radius: 30px;
+margin: 15px;
+}
+
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+margin-top: 20px;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image1{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+text-align: center;
+align-items: center;
+border: 2px solid #37474f ;
+border-radius: 30px;
+padding: 10px;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image1 img{
+height: 100px;
+width: 100px;
+background-color: #fbd49b;
+border-radius: 50%;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image1 .customer-review-with-image1-starlogo img{
+height: 30px;
+width: 30px;
+background-color: white;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image2{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+text-align: center;
+align-items: center;
+border: 2px solid #37474f ;
+border-radius: 30px;
+padding: 10px;
+margin-top: 30px;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image2 img{
+height: 100px;
+width: 100px;
+background-color: #fbd49b;
+border-radius: 50%;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image2 .customer-review-with-image1-starlogo img{
+height: 30px;
+width: 30px;
+background-color: white;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image3{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+text-align: center;
+align-items: center;
+border: 2px solid #37474f ;
+border-radius: 30px;
+padding: 10px;
+margin-top: 30px;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image3 img{
+height: 100px;
+width: 100px;
+background-color: #fbd49b;
+border-radius: 50%;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image3 .customer-review-with-image1-starlogo img{
+height: 30px;
+width: 30px;
+background-color: white;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image4{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+text-align: center;
+align-items: center;
+border: 2px solid #37474f ;
+border-radius: 30px;
+padding: 10px;
+margin-top: 30px;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image4 img{
+height: 100px;
+width: 100px;
+background-color: #fbd49b;
+border-radius: 50%;
+}
+
+.nineteen .customer-review .customer-review-with-image .customer-review-with-image4 .customer-review-with-image1-starlogo img{
+height: 30px;
+width: 30px;
+background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+
+
+
+/* section fourteen */
+
+@media screen and (min-width:600px){
+.fourteen .header-logo-search{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourteen .header-logo-search img{
+    height: 45px;
+}
+
+.fourteen .header-logo-search h1{
+    font-size: 28px;
+}
+
+.fourteen .header-logo-search .text-with-searchlogo input{
+    height: 50px;
+    width: 220px;
+}
+
+.fourteen .header-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourteen .header-menu ul li{
+    font-size: 20px;
+}
+
+
+
+
+/* section fifteen */
+
+
+.fifteen .heading h1{
+    font-size: 25px;
+}
+
+.fifteen .heading p{
+    font-size: 18px;
+}
+
+.fifteen .heading .offer-10 h3{
+    font-size: 22px;
+}
+
+.fifteen .heading .premium-images .premium-image img{
+    height: 50px;
+}
+
+.fifteen .heading .premium-images .premium-image p{
+    font-size: 19px;
+}
+
+.fifteen .heading h2{
+    font-size: 25px;
+}
+
+.fifteen .heading .premium-background{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fifteen .premium-sofas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.fifteen .premium-sofas img{
+    height: 700px;
+    width: 400px;
+}
+
+.fifteen .premium-sofas .premium-sofa img{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* section sixteen */
+
+.sixteen{
+    margin-top: 30px;
+}
+
+.sixteen h1{
+    font-size: 28px;
+}
+.sixteen .table table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sixteen .table table,th,td{
+    font-size: 20px;
+}
+
+
+
+
+/* section seventeen */
+
+
+
+.seventeen h1{
+    font-size: 28px;
+}
+
+.seventeen .similar-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.seventeen .similar-products .similar-product p{
+    font-size: 18px;
+}
+
+.seventeen .similar-products .similar-product .button{
+    font-size: 18px;
+    align-items: center;
+}
+
+
+
+
+
+
+/* section eighteen */
+
+
+.eighteen table{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+
+
+/* section nineteen */
+
+
+.nineteen .customer-reviews .customer-review h1{
+    font-size: 28px;
+}
+
+.nineteen .customer-reviews .customer-review p{
+    font-size: 19px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating1 p{
+    width: 200px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating2 p{
+    width: 200px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating3 p{
+    width: 200px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating4 p{
+    width: 200px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-rating .customer-review-rating5 p{
+    width: 200px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image{
+    margin-top: 40px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image .customer-review-with-image1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image .customer-review-with-image2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image .customer-review-with-image3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image .customer-review-with-image4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+
+
+
+
+
+/* laptops */
+
+
+
+
+
+/* section fourteen */
+
+@media screen and (min-width:1200px){
+.fourteen{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.fourteen .header-menu ul{
+    text-align: center;
+    align-items: center;
+}
+
+.fourteen .header-menu ul li{
+    margin: 0px 50px;
+}
+
+
+
+/* section fifteen */
+
+
+.fifteen{
+    display: flex;
+    align-items: center;
+}
+
+.fifteen .heading{
+    line-height: 40px;
+    width: 45%;
+}
+
+.fifteen .heading h1{
+    text-align: left;
+}
+
+.fifteen .heading .premium-background{
+    justify-content: flex-start;
+}
+
+
+
+
+
+/* section sixteen */
+
+
+
+.sixteen{
+    margin-top: 100px;
+}
+
+
+
+
+/* section seventeen */
+
+
+
+.seventeen{
+    margin-top: 100px;
+}
+
+.seventeen .similar-products{
+    display: flex;
+}
+
+
+
+
+
+/* section eighteen */
+
+.eighteen{
+    margin-top: 80px;
+}
+
+
+
+
+
+/* section nineteen */
+
+
+
+.nineteen .customer-reviews .customer-review{
+    display: flex;
+    align-items: center;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image .customer-review-with-image1{
+    margin: 10px;
+    height: 150px;
+}
+
+.nineteen .customer-reviews .customer-review .customer-review-with-image .customer-review-with-image2{
+    margin-top: 0px;
+    margin: 10px;
+    
+}
+}

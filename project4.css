@@ -1,0 +1,1579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* header */
+
+
+header{
+    padding: 10px;
+}
+
+header .header-logo-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header .header-logo-search img{
+    height: 40px;
+}
+
+header .header-logo-search h1{
+    font-size: 25px;
+    color: #1d66d2;
+}
+
+header .header-logo-search input{
+    border-radius: 30px;
+    height: 40px;
+    margin-left: 30px;
+    border: none;
+    background-color: #fbd49b;
+}
+
+header .header-logo-search .text-input{
+    justify-content: space-around;
+}
+
+header .header-menu ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+header .header-menu ul li{
+    margin: 0px 34px;
+    font-size: 16px;
+}
+
+
+
+
+
+    /* section one */
+
+
+
+
+.one{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.one .left h3{
+    font-size: 18px;
+    background-color: #fbd49b;
+    width: 220px;
+    padding: 4px;
+}
+
+.one .left h2{
+    font-size: 25px;
+    color: #1d66d2;
+    margin-top: 28px;
+}
+
+.one .left h1{
+    font-size: 34px;
+    margin-top: 28px;
+}
+
+.one .left p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 28px;
+}
+
+.one .left .facilities{
+    display: flex;
+    align-items: center;
+}
+
+.one .left .facilities .facility{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.one .left .facilities .facility img{
+    height: 35px;
+    margin-top: 10px;
+}
+
+.one .left .facilities .facility p{
+    font-size: 14px;
+}
+
+.one .left .button{
+    font-size: 15px;
+    padding: 10px;
+    width: 120px;
+    height: 45px;
+    margin-top: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fbd49b;
+}
+
+.one .right{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.one .right img{
+    height: 335px;
+    width: 315px;
+    display: block;
+    margin: auto;
+    position: relative;
+    background-color: #fbd49b;
+    border-radius: 80%;
+}
+
+
+
+
+
+
+
+    /* section two */
+
+.two{
+    background-color:#fbd49b ;
+    margin: 20px;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+    margin-top: 60px;
+}
+
+.two .furniture-images-21st-century{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.two .furniture-images-21st-century img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    display: grid;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.two h4{
+    font-size: 22px;
+    color: #37474f;
+}
+
+
+
+
+
+    /* section three */
+
+
+
+
+
+.three{
+    padding: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    height: auto;
+    background-color: #fbe0d2;
+}
+
+.three h1{
+    text-align: center;
+    color: #37474f;
+}
+
+.three .furniture-family-occasion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.three .furniture-family-occasion img{
+    height: 280px;
+    width: 250px;
+    margin: 18px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+
+
+
+    /* section four */
+
+
+
+
+
+
+.four{
+    margin: 20px;
+    height: 500px;
+    margin-top: 80px;
+    background-color: #fbd49b;
+}
+
+.four .left{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px 0px 20px;
+}
+
+.four .left .types-of-chairs-left{
+    margin: 10px 0px;
+
+}
+
+.four .left .types-of-chairs-left h4{
+    color: #1d66d2;
+}
+
+.four .left .types-of-chairs-left h1,h3{
+    color: #37474f;
+}
+
+.four .left .types-of-chairs-left h4,h2,h1,h3{
+    margin: 10px 0px;
+}
+
+.four .left .types-of-chair-images-left img{
+    height: 180px;
+    width: 180px;
+
+}
+
+.four .left .types-of-chair-images-left{
+    background-color: white;
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+.four .right{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px 0px 20px;
+}
+
+.four .right .types-of-chairs-right{
+    margin: 10px 0px;
+}
+
+.four .right .types-of-chairs-right h1,h3{
+    color: #37474f;
+}
+
+.four .right .types-of-chairs-right h4,h2,h1,h3{
+    margin: 10px 0px;
+}
+
+.four .right .types-of-chair-images-right img{
+    height: 180px;
+    width: 180px;
+
+}
+
+.four .right .types-of-chair-images-right{
+    background-color: white;
+    border-radius: 30px;
+    height: 180px;
+    width: 200px;
+}
+
+.four .right .types-of-chairs-right h4{
+    color: #1d66d2;
+}
+
+
+
+
+
+
+
+
+
+    /* section five */
+
+
+.five{
+    padding: 20px;
+    background-color: #fbe0d2;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.five h1{
+    font-size: 22px;
+    color: #37474f;
+    text-align: center;
+    line-height: 40px;
+}
+
+.five span{
+    color:#f7b32f;
+}
+
+.five p{
+    line-height: 25px;
+}
+
+.five .wood-qualities{
+    margin-top: 30px;
+}
+
+.five .wood-qualities .wood-quality{
+    display: flex;
+    align-items: center;
+}
+
+.five .wood-qualities .wood-quality img{
+    height: 40px;
+}
+
+.five .wood-qualities .recycled-wood-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.five .wood-qualities .recycled-wood-images img{
+    height: 170px;
+    width: 130px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.five .button{
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    background-color: white;
+    color: #f7b32f;
+    font-weight: bold;
+}
+
+
+
+
+
+    /* section six */
+
+
+
+
+.six{
+    margin: 20px;
+    margin-top: 90px;
+}
+
+.six h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.six h1 span{
+    color: #f7b32f;
+}
+
+.six P{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 20px 0px 20px;
+    line-height: 25px;
+}
+
+.six .menu-types ul{
+    display: flex;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.six .menu-types ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+.six .images-rating{
+  display: flex;
+  flex-direction: column;
+}
+
+.six .images-rating .images-rating1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.six .images-rating .images-rating1 img{
+    background-color:#fbe0d2;
+    border-radius: 30px;
+    height: 270px;
+    width: 200px;
+}
+
+.six .images-rating .images-rating1 .star-logo img{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.six .images-rating .images-rating1 h3{
+    font-size: 21px;
+}
+
+.six .images-rating .images-rating1 .image-rate{
+    display: flex;
+    align-items: center;
+}
+
+.six .images-rating .images-rating1 .image-rate h2{
+    color: #1d66d2;
+    font-size: 22px;
+}
+
+.six .images-rating .images-rating1 .image-rate h3{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #138276;
+}
+
+
+.six .images-rating .images-rating2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.six .images-rating .images-rating2 img{
+    background-color:#fbe0d2;
+    border-radius: 30px;
+    height: 270px;
+    width: 200px;
+}
+
+.six .images-rating .images-rating2 .star-logo img{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.six .images-rating .images-rating2 h3{
+    font-size: 21px;
+}
+
+.six .images-rating .images-rating2 .image-rate{
+    display: flex;
+    align-items: center;
+}
+
+.six .images-rating .images-rating2 .image-rate h2{
+    color: #1d66d2;
+    font-size: 22px;
+}
+
+.six .images-rating .images-rating2 .image-rate h3{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #138276;
+}
+
+
+
+
+.six .images-rating .images-rating3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.six .images-rating .images-rating3 img{
+    background-color:#fbe0d2;
+    border-radius: 30px;
+    height: 270px;
+    width: 200px;
+}
+
+.six .images-rating .images-rating3 .star-logo img{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.six .images-rating .images-rating3 h3{
+    font-size: 21px;
+}
+
+.six .images-rating .images-rating3 .image-rate{
+    display: flex;
+    align-items: center;
+}
+
+.six .images-rating .images-rating3 .image-rate h2{
+    color: #1d66d2;
+    font-size: 22px;
+}
+
+.six .images-rating .images-rating3 .image-rate h3{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #138276;
+}
+
+
+
+.six .images-rating .images-rating4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.six .images-rating .images-rating4 img{
+    background-color:#fbe0d2;
+    border-radius: 30px;
+    height: 270px;
+    width: 200px;
+}
+
+.six .images-rating .images-rating4 .star-logo img{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.six .images-rating .images-rating4 h3{
+    font-size: 21px;
+}
+
+.six .images-rating .images-rating4 .image-rate{
+    display: flex;
+    align-items: center;
+}
+
+.six .images-rating .images-rating4 .image-rate h2{
+    color: #1d66d2;
+    font-size: 22px;
+}
+
+.six .images-rating .images-rating4 .image-rate h3{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #138276;
+}
+
+
+
+
+
+
+
+
+    /* section seven */
+
+
+
+
+
+.seven{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: #fbe0d2;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.seven .furniture-ocasion h2{
+    font-size: 28px;
+}
+
+.seven .furniture-ocasion h3{
+    font-size: 23px;
+}
+
+.seven .furniture-ocasion .button{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.seven .furniture-ocasion-image img{
+    width: 200px;
+    height: 240px;
+}
+
+
+
+
+
+    /* section eight */
+
+
+
+.eight{
+    margin: 20px;
+    margin-top: 70px;
+    background-color:#fbe0d2;
+}
+
+.eight h1{
+    text-align: center;
+    font-size: 27px;
+    padding: 15px;
+}
+
+.eight span{
+    color:#f7b32f;
+}
+
+.eight P{
+    text-align: center;
+    font-size: 17px;
+}
+
+.eight .reviews{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.eight .reviews .review{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.eight .reviews .profiles{
+    height: 80px;
+    width: 80px;
+    background-color: #7b836e;
+    border-radius: 50%;
+}
+
+.eight .reviews .review .profile-rating .review-star img{
+    height: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* section nine */
+
+
+
+
+.nine{
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.nine h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.nine .blog-images{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nine .blog-images .blog-image{
+    margin: 10px;
+    background-color:#fbe0d2 ;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.nine .blog-images .blog-image p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+    /* section ten */
+
+
+
+
+.ten{
+    margin: 20px;
+    background-color: #fbe0d2;
+    margin-top: 70px;
+}
+
+.ten h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.ten h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.ten .Collection-30{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ten .Collection-30 img{
+    height: 250px;
+    width: 200px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+.eleven iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+
+
+
+
+
+
+    /* section twelve */
+
+
+
+.twelve{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.twelve .logo-with-furniture{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.twelve .logo-with-furniture h1{
+    font-size: 27px;
+}
+
+.twelve .logo-with-furniture img{
+    height: 30px;
+}
+
+.twelve p{
+    font-size: 16px;
+}
+
+.twelve .button-with-search{
+    display: flex;
+    margin-top: 30px;
+    background-color: #f7b32f;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.twelve .button-with-search .button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f7b32f;
+}
+
+.twelve .button-with-search img{
+    height: 40px;
+    padding-top: 7px;
+}
+
+.twelve .menus{
+    margin-top: 30px;
+}
+
+.twelve .menus ul{
+    display: flex;
+    list-style: none;
+}
+
+.twelve .menus ul li{
+    margin: 9px;
+    font-size: 20px;
+    color: #37474f;
+}
+
+.twelve .furniture-types{
+    display: flex;
+}
+
+.twelve .furniture-types .type1 ul{
+    margin: 19px;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.twelve .furniture-types .type1 ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+    /* section thirteen */
+
+
+
+
+.thirteen{
+    background-color: #fbe0d2;
+    height: 100px;
+    margin: 30px 0px;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    /* media queries */
+
+
+@media screen and (min-width:600px){
+
+    header .header-logo-search img{
+        height: 55px;
+    }
+
+    header .header-logo-search h1{
+        font-size: 30px;
+    }
+
+    header .header-logo-search .text-input input{
+        height: 50px;
+        width: 210px;
+    }
+
+    header .header-menu ul li{
+        font-size: 20px;
+    }
+
+    .one .left h3{
+        font-size: 23px;
+        width: fit-content;
+    }
+
+    .one .left h2{
+        font-size: 32px;
+    }
+
+    .one .left h1{
+        font-size: 35px;
+    }
+
+    .one .left p{
+        font-size: 18px;
+    }
+
+    .one .left .facilities .facility img{
+        height: 45px;
+    }
+
+    .one .left .facilities .facility p{
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    .one .left .button{
+        font-size: 19px;
+        background-color: #fbd49b;
+        height: 50px;
+        width: fit-content;
+    }
+
+    .one .right img{
+        height: 400px;
+        width: 400px;
+    }
+
+
+        /* section two */
+
+    .two{
+        background-color: #fbd49b;
+        height: 1100px;
+        
+    }
+
+    .two h4{
+        font-size: 28px;
+    }
+
+    .two .furniture-images-21st-century img{
+        height: 300px;
+        width: 300px;
+    }
+
+
+
+    /* section three */
+
+
+    .three h1{
+        font-size: 28px;
+    }
+
+    .three .furniture-family-occasion img{
+        height: 300px;
+        width: 300px;
+    }
+
+
+    /* section four */
+
+    .four{
+        background-color: #fbd49b;
+        height: 650px;
+    }
+
+
+    .four .left{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .four .left .types-of-chairs-left{
+        margin-top: 40px;
+    }
+
+    .four .left .types-of-chairs-left h4{
+        font-size: 20px;
+    }
+
+    .four .left .types-of-chairs-left h2{
+        font-size: 27px;
+    }
+
+    .four .left .types-of-chairs-left h1{
+        font-size: 29px;
+    }
+
+    .four .left .types-of-chairs-left h3{
+        font-size: 20px;
+    }
+
+    .four .left .types-of-chair-images-left img{
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        border-radius: 30px;
+    }
+
+    .four .right{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    .four .right .types-of-chairs-right{
+        margin-top: 40px;
+    }
+
+    .four .right .types-of-chairs-right h4{
+        font-size: 20px;
+    }
+
+    .four .right .types-of-chairs-right h2{
+        font-size: 27px;
+    }
+
+    .four .right .types-of-chairs-right h1{
+        font-size: 29px;
+    }
+
+    .four .right .types-of-chairs-right h3{
+        font-size: 20px;
+    }
+
+    .four .right .types-of-chair-images-right img{
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        border-radius: 30px;
+    }
+
+
+
+    /* section five */
+
+    .five h1{
+        font-size: 28px;
+    }
+
+    .five p{
+        font-size: 18px;
+    }
+
+    .five .wood-qualities .wood-quality img{
+        height: 40px;
+    }
+
+    .five .wood-qualities .wood-quality h3{
+        font-size: 20px;
+    }
+
+    .five .wood-qualities .recycled-wood-images img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .five .wood-qualities .button{
+        font-size: 20px;
+        background-color: white;
+        height: 45px;
+        width:120px;
+    }
+
+
+    /* section six */
+
+
+    .six h1{
+        font-size: 28px;
+    }
+
+    .six p{
+        font-size: 18px;
+    }
+    
+    .six .menu-types{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .six .menu-types ul li{
+        font-size: 20px;
+    }
+
+    .six .images-rating .images-rating1 img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .six .images-rating .images-rating1 h3{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating1 .star-logo img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .six .images-rating .images-rating1 .image-rate h2{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating1 .image-rate h3{
+        font-size: 20px;
+    }
+
+    .six .images-rating .images-rating2 img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .six .images-rating .images-rating2 h3{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating2 .star-logo img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .six .images-rating .images-rating2 .image-rate h2{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating2 .image-rate h3{
+        font-size: 20px;
+    }
+
+    .six .images-rating .images-rating3 img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .six .images-rating .images-rating3 h3{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating3 .star-logo img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .six .images-rating .images-rating3 .image-rate h2{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating3 .image-rate h3{
+        font-size: 20px;
+    }
+
+    .six .images-rating .images-rating4 img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .six .images-rating .images-rating4 h3{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating4 .star-logo img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .six .images-rating .images-rating4 .image-rate h2{
+        font-size: 25px;
+    }
+
+    .six .images-rating .images-rating4 .image-rate h3{
+        font-size: 20px;
+    }
+
+
+
+    /* section seven */
+
+
+    .seven{
+        margin-top: 80px;
+    }
+
+
+    .seven .furniture-ocasion h2{
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .seven .furniture-ocasion h3{
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    .seven .furniture-ocasion .button{
+        font-size: 20px;
+        width: 130px;
+        height: 60px;margin-left: 20px;
+    }
+
+    .seven .furniture-ocasion-image img{
+        height: 400px;
+        width: 300px;
+    }
+
+
+
+    /* section eight */
+
+
+    .eight h1{
+        font-size: 28px;
+    }
+
+    .eight p{
+        font-size: 20px;
+    }
+
+    .eight .reviews{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+
+    /* section nine */
+
+
+    .nine h1{
+        font-size: 28px;
+    }
+
+    .nine .blog-images .blog-image img{
+        height: 250px;
+    }
+
+    .nine .blog-images .blog-image p{
+        font-size: 20px;
+    }
+
+
+    /* section ten */
+
+
+    .ten h2{
+        font-size: 27px;
+    }
+
+    .ten h3{
+        font-size: 23px;
+    }
+
+    .ten .Collection-30{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .ten .Collection-30 img{
+        height: 250px;
+        width: 250px;
+    }
+
+
+
+
+    /* section eleven */
+
+
+    .eleven iframe{
+        height: 400px;
+        width: 500px;
+    }
+
+
+
+
+    /* section twelve */
+
+    .twelve .logo-with-furniture img{
+        height: 40px;
+    }
+
+    .twelve .logo-with-furniture h1{
+        font-size: 28px;
+    }
+
+    .twelve p{
+        font-size: 19px;
+    }
+
+    .twelve .menus{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .twelve .menus ul li{
+        margin: 0px 40px;
+        font-size: 22px;
+    }
+
+    .twelve .furniture-types{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .twelve .furniture-types .type1 ul li{
+        font-size: 18px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+    /* laptops */
+
+
+
+@media screen and (min-width:1200px){
+    
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    header .header-menu ul{
+        margin-top: 0px;
+    }
+
+    header .header-menu ul li{
+        margin: 0px 50px;
+    }
+
+
+    /* section one */
+
+
+
+    .one{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 35px;
+        align-items: center;
+    }
+
+    .one .left h3{
+        background-color: #fbd49b;
+        width: 300px;
+    }
+
+    .one .right{
+        margin-top: 0px;
+    }
+
+
+
+    /* section two */
+
+
+    .two{
+        display: flex;
+        align-items: center;
+        height: 400px;
+    }
+
+    .two .furniture-images-21st-century{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    /* section three */
+
+    .three h1{
+        position: absolute;
+        margin-left: 450px;
+        margin-top: 100px;
+    }
+
+    .three .furniture-family-occasion{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    
+
+    /* section four */
+
+    .four{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        justify-content: space-evenly;
+    }
+
+    .four .left{
+        background-color: #fbe0d2;
+        width: 500px;
+        height: 400px;
+    }
+
+    .four .left .types-of-chair-images-left img{
+        background-color: #fbe0d2;
+    }
+
+    .four .right{
+        background-color: #fbe0d2;
+        width: 500px;
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    .four .right .types-of-chair-images-right img{
+        background-color: #fbe0d2;
+    }
+
+
+
+
+    /* section five */
+
+    .five .wood-qualities .recycled-wood-images{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+
+    /* section six */
+
+
+    .six .images-rating{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* section seven */
+
+    .seven{
+        display: flex;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+
+
+    /* section nine */
+
+
+    
+    .nine .blog-images{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nine .blog-images .blog-image{
+        margin: 20px;
+    }
+
+    .nine .blog-images .blog-image img{
+        height: 400px;
+        width: 200px;
+    }
+
+
+
+
+    /* section ten */
+
+
+    .ten{
+        display: flex;
+        align-items: center;
+        height: 400px;
+    }
+
+    .ten .Collection-30{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+
+    /* section eleven */
+
+
+
+    .eleven iframe{
+        height: 600px;
+        width: 700px;
+    }
+
+
+
+
+    /* section twelve */
+
+    .twelve{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 70px;
+    }
+
+    .twelve .logo-with-furniture{
+        margin-left: 0px;
+    }
+
+
+
+
+    
+
+}
